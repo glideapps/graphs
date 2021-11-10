@@ -1,0 +1,28 @@
+{
+  "name": "@glideapps/graphs",
+  "version": "0.0.1",
+  "description": "Simple graph algorithms",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "start": "tsc -b && node build/index.js",
+    "build": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glideapps/graphs.git"
+  },
+  "author": "Glide",
+  "license": "MIT",
+  "dependencies": {
+    "@glideapps/ts-necessities": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "typescript": "^4.4.4"
+  }
+}
